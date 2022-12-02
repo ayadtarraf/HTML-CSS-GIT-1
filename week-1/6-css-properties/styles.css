@@ -1,1 +1,19 @@
 /* Add your CSS code below */
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.messages div:last-child {
+  border-left: 3px solid blue;
+}
+
+.messages div:first-child {
+  opacity: 0.5;
+}
+
+.message {
+  line-height: 2;
+}
