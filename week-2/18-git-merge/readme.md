@@ -43,9 +43,10 @@ Now edit the `style.css` file and change the colour of the links in your message
 
 Next, you will need to push the `orange_links` branches. When you have a _new_ branch, you have to add extra information to the _first_ `push` command:
 
-```shell
+````shell
 git push -u origin orange_links
-```
+```gi
+
 
 When you have successfully pushed your `orange_links` branch, you should see the following in your GitHub repository.
 
@@ -72,3 +73,4 @@ Now that you've created the pull request, make some final checks and then merge 
 ![Screenshot of the open pull request screen in GitHub](/images/18/pull-request-3.png)
 
 Congratulations! You have now changed the colour of the links and merged those changes to your `master` branch.
+````
